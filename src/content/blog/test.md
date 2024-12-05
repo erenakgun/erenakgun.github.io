@@ -168,12 +168,3 @@ My recommendation for image compression sites.
 The default OG image will be placed if a post does not specify the OG image. Though not required, OG image related to the post should be specify in the frontmatter. The recommended size for OG image is **_1200 X 640_** px.
 
 > Since AstroPaper v1.4.0, OG images will be generated automatically if not specified. Check out [the announcement](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/).
-
-$$
-\begin{aligned}
-\nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \mathbf{B} &= 0 \\
-\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\
-\nabla \times \mathbf{B} &= \mu_0\left(\mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)
-\end{aligned}
-$$

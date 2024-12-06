@@ -24,7 +24,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <div class="flex flex-col items-center justify-center gap-10 sm:flex-row">
+      <div class="flex items-center justify-center gap-10 sm:flex-row">
         <div>
           <h1>Orhan Eren Akgün</h1>
 
@@ -43,7 +43,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             2021.
           </p>
         </div>
-        <div class="aspect-square w-[100rem] overflow-hidden rounded-full">
+        <div
+          class="hidden aspect-square w-[1600px] overflow-hidden rounded-full sm:block"
+        >
           <img src={profile.src} />
         </div>
       </div>
